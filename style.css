@@ -4,5 +4,33 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
+}
+.btn {
+    background-color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.color-picker {
+    display: inline-block;
+    background-color: white;
+    margin-left: -10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+}
+
+#container {
+    display: grid;
+    margin: 20px auto;
+    width: 960px;
+    height: 960px;
+}
+
+.square {
+    border: 1px solid black;
+    flex: 1 1 25%;
 }
