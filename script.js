@@ -48,6 +48,9 @@ function createGrid(rowSize, gridSize){
         myDiv.addEventListener('mouseover', (e) =>{
             e.target.style.background = color;
         });
+        myDiv.addEventListener('touchmove', (e) =>{
+            e.target.style.background = color;
+        });
         container.appendChild(myDiv);
     }
     container.style.gridTemplateColumns = columns;        
